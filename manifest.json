@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Code Text Printer",
+    "version": "1.0",
+    "description": "Prints text within <code> tags of inspected element",
+    "action": {
+    "default_popup": "popup.html"
+  },
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "scripting"
+    ]
+}
