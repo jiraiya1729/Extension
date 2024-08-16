@@ -11,7 +11,7 @@ document.getElementById('scrape').addEventListener('click', () => {
   });
   
   function scrapeCode() {
-    const codeElements = document.querySelectorAll('code');
+    const codeElements = document.querySelectorAll('pre');
     let codeText = '';
     codeElements.forEach(el => {
       codeText += el.innerText + '\n\n';
